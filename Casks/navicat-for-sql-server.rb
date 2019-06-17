@@ -1,6 +1,6 @@
 cask 'navicat-for-sql-server' do
-  version '12.1.18'
-  sha256 '0760b3178ba65e9d3ea84b6ebdab83ff30ed028cadd3cf5cc86c452eb5f5d687'
+  version '12.1.23'
+  sha256 '4974605846fd5912f455f71eef00876e9968809b108d1f422071e3af06ba196f'
 
   url "http://download.navicat.com/download/navicat#{version.major_minor.no_dots}_sqlserver_en.dmg"
   appcast 'https://www.navicat.com/updater/v120/sysProfileInfo.php?appName=Navicat%20for%20SQL%20Server&appLang=en'

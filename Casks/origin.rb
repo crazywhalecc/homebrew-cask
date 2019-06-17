@@ -1,6 +1,6 @@
 cask 'origin' do
-  version '10.5.33.19463'
-  sha256 '7d0ca5486b7374df8bafa2a4f11fda2627a9e69b158cedf4de524291d74f4352'
+  version '10.5.39.26720'
+  sha256 'ae911c1d58b21b84a5c36da8590eebe30a5d2422491e88b268939c17475a2281'
 
   # origin-a.akamaihd.net was verified as official when first introduced to the cask
   url "https://origin-a.akamaihd.net/Origin-Client-Download/origin/mac/live/OriginUpdate_#{version.dots_to_underscores}.zip"

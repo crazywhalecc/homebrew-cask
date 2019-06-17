@@ -1,8 +1,8 @@
 cask 'dotnet-sdk' do
-  version '2.2.106'
-  sha256 'b37c72440be563faca0a6044354c73bff67d55e20ab662d1c56cc9c21d27ffc7'
+  version '2.2.300,60aefe1e-e5af-4a40-8985-7e4d270a53aa:5033e8abbd2e218abf77207611be0504'
+  sha256 'f7ba19f3f30af6db1e9fb760ac9f9e7d1ce7acb1c204223a1c1bae02cbab493a'
 
-  url "https://download.visualstudio.microsoft.com/download/pr/4d0f3f47-4c25-4102-8df8-a6fe7b472677/d1e3684501ffb70df10879b831b2e70e/dotnet-sdk-#{version}-osx-x64.pkg"
+  url "https://download.visualstudio.microsoft.com/download/pr/#{version.after_comma.before_colon}/#{version.after_colon}/dotnet-sdk-#{version.before_comma}-osx-x64.pkg"
   appcast 'https://www.microsoft.com/net/download/macos'
   name '.NET Core SDK'
   homepage 'https://www.microsoft.com/net/core#macos'
@@ -14,7 +14,7 @@ cask 'dotnet-sdk' do
                        ]
   depends_on macos: '>= :sierra'
 
-  pkg "dotnet-sdk-#{version}-osx-x64.pkg"
+  pkg "dotnet-sdk-#{version.before_comma}-osx-x64.pkg"
 
   uninstall pkgutil: 'com.microsoft.dotnet.*',
             delete:  [
