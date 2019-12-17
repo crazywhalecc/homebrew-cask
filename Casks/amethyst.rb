@@ -8,8 +8,8 @@ cask 'amethyst' do
     sha256 '9fd1ac2cfb8159b2945a4482046ee6d365353df617f4edbabc4e8cadc448c1e7'
     url "https://ianyh.com/amethyst/versions/Amethyst-#{version}.zip"
   else
-    version '0.14.0'
-    sha256 'c2fb966d0f9dc56aaff33b28717aae9c724954d7bc898457913a6a27cbd9f474'
+    version '0.14.3'
+    sha256 '88da14e15722525fa4695688fc153ed93e3595366a52a0ce92fa66abb1826151'
     # github.com/ianyh/Amethyst was verified as official when first introduced to the cask
     url "https://github.com/ianyh/Amethyst/releases/download/v#{version}/Amethyst.zip"
   end
@@ -21,8 +21,6 @@ cask 'amethyst' do
   auto_updates true
 
   app 'Amethyst.app'
-
-  uninstall login_item: 'Amethyst'
 
   zap trash: [
                '~/Library/Caches/com.amethyst.Amethyst',

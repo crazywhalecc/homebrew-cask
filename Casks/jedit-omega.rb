@@ -3,8 +3,8 @@ cask 'jedit-omega' do
     version '1.32'
     sha256 '251697fe6b76419b2cef41a89a2cb7d2e3f8caab0bc1ae82aed6c14a366fdad9'
   else
-    version '2.13'
-    sha256 '288e08a02129c1ed3b4acfcb1343b7e115f4943fe0778b435ebc7bd15afd4e9b'
+    version '2.21'
+    sha256 '76fd152aaed55233fc43f58af3d9afedda41db9d395bb1955fa25ba5ba350935'
   end
 
   # artman21.co.jp was verified as official when first introduced to the cask

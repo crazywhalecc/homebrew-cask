@@ -1,6 +1,6 @@
 cask 'blue-jeans' do
-  version '2.13.1.17'
-  sha256 'e7a5f5faa69000906bb30da34edc415d297174b4c463dd186c00125be58140c9'
+  version '2.17.0.282'
+  sha256 'fd491ec2db4842d636bf105d4685e3624e85522c4e8ae54e668cb35397996876'
 
   url "https://swdl.bluejeans.com/desktop-app/mac/#{version.major_minor_patch}/#{version}/BlueJeansInstaller.dmg"
   appcast 'https://www.bluejeans.com/downloads'

@@ -1,6 +1,6 @@
 cask 'fman' do
-  version '1.6.2'
-  sha256 'ed868cab1f416c2e2d71a9c0258b9063e234c57e86d487b00b45cefbc2f0c03b'
+  version '1.7.0'
+  sha256 'c9b25a2f660590d886b493916d28476e75e5f1e09811a5de2821ba104b076b5a'
 
   url "https://fman.io/updates/mac/#{version}.zip"
   appcast 'https://fman.io/updates/Appcast.xml'

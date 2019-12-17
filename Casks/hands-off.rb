@@ -1,6 +1,6 @@
 cask 'hands-off' do
-  version '4.2.1'
-  sha256 '390aeea101b36a878511a0bcb1a7e2547a0adc4fe929380fb8fd1eb17f518f0b'
+  version '4.4.0'
+  sha256 'a4aa07a33ca903723ecda64c6b28d7dcdee183a94a03fb2f86c38a53b94f40e2'
 
   url "https://www.oneperiodic.com/files/Hands%20Off!%20v#{version}.dmg"
   appcast "https://www.oneperiodic.com/handsoff#{version.major}.xml"

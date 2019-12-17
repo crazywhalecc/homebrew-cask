@@ -1,6 +1,6 @@
 cask 'youku' do
-  version '1.7.1.05291'
-  sha256 '86cec6e37a40ee2e209d745e597dccc46beb6bfdef2498b407d6e16f27f35add'
+  version '1.7.8.11195'
+  sha256 '916df57a79208cb70676fc09f0c9b97e92f6b6dfb0b5343b3b78446bebf35cae'
 
   url "https://pcclient.download.youku.com/ikumac/youkumac_#{version}.dmg"
   appcast 'https://pd.youku.com/pc'

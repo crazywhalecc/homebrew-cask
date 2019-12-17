@@ -1,6 +1,6 @@
 cask 'pdfpenpro' do
-  version '1102.3,1559079247'
-  sha256 '72c677d6f359f43c301e0e6c1575d66a5476db17bbf6e12c606c678a206b7b36'
+  version '1120.2,1572922655'
+  sha256 '73a7a1fb33678d1266e5426ddd1bf715a51491aa3e948054f5add03e4d49b078'
 
   url "https://dl.smilesoftware.com/com.smileonmymac.PDFpenPro/#{version.before_comma}/#{version.after_comma}/PDFpenPro-#{version.before_comma}.zip"
   appcast 'https://updates.smilesoftware.com/com.smileonmymac.PDFpenPro.xml'

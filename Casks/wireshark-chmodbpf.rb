@@ -1,6 +1,6 @@
 cask 'wireshark-chmodbpf' do
-  version '3.0.2'
-  sha256 '2e32ed900bc0bb85430ebe45eef39c5097423eb8cb3a7bd4b08e704f599ab430'
+  version '3.0.7'
+  sha256 'cb69a2899b5a020fbe7b844388922aa893be1580a27c6747341e6008cb1b4441'
 
   url "https://www.wireshark.org/download/osx/Wireshark%20#{version}%20Intel%2064.dmg"
   appcast 'https://www.wireshark.org/download/osx/'
@@ -10,24 +10,7 @@ cask 'wireshark-chmodbpf' do
   conflicts_with cask: 'wireshark'
   depends_on macos: '>= :sierra'
 
-  pkg "Wireshark #{version} Intel 64.pkg",
-      choices: [
-                 {
-                   'choiceIdentifier' => 'wireshark',
-                   'choiceAttribute'  => 'selected',
-                   'attributeSetting' => 0,
-                 },
-                 {
-                   'choiceIdentifier' => 'chmodbpf',
-                   'choiceAttribute'  => 'selected',
-                   'attributeSetting' => 1,
-                 },
-                 {
-                   'choiceIdentifier' => 'cli',
-                   'choiceAttribute'  => 'selected',
-                   'attributeSetting' => 0,
-                 },
-               ]
+  pkg 'Install ChmodBPF.pkg'
 
   uninstall_preflight do
     set_ownership '/Library/Application Support/Wireshark'

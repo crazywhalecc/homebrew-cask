@@ -1,6 +1,6 @@
 cask 'ultimate' do
-  version '3.0.11.507'
-  sha256 'c237587fcdd097257bf2043c678902699176dfc51473f9a8faa35b85026566ad'
+  version '3.0.11.1025'
+  sha256 'cffb891540b4b338a1ac32e15a16eb3f44129983657f45bb0872105bd6029700'
 
   url 'https://download.epubor.com/epubor_ultimate.zip'
   appcast 'https://www.epubor.com/ultimate.html'

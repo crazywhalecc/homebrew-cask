@@ -1,16 +1,16 @@
 cask 'surge' do
-  version '3.2.0-860'
-  sha256 'f31aaa38e2f601d57bba73f28c27b9ce26742660477fb79d3fa7ca7af7e7229a'
+  version '3.3.1-906'
+  sha256 'b7ff7e0b3a04b1175279dc2f952ced2e02702e172100ea06aaaed85a1b9d4c48'
 
   url "https://www.nssurge.com/mac/v#{version.major}/Surge-#{version}.zip"
-  appcast "https://www.nssurge.com/mac/v#{version.major}/appcast.xml"
+  appcast "https://www.nssurge.com/mac/v#{version.major}/appcast-signed.xml"
   name 'Surge'
   homepage 'https://nssurge.com/'
 
   auto_updates true
   depends_on macos: '>= :el_capitan'
 
-  app "Surge #{version.major}.app"
+  app 'Surge.app'
 
   uninstall launchctl: 'com.nssurge.surge-mac.helper',
             delete:    '/Library/PrivilegedHelperTools/com.nssurge.surge-mac.helper'

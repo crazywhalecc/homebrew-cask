@@ -1,6 +1,6 @@
 cask 'alfred' do
-  version '4.0.1_1078'
-  sha256 'c77fe23d9cd2987b5f49d84cc2e5e50972c8c37f0df9c88f01ff29ac2881a5a3'
+  version '4.0.6_1124'
+  sha256 'e7760dc1567ddc443aed6cd77577bf746425275c2e28dd056255bf940d1c716e'
 
   url "https://cachefly.alfredapp.com/Alfred_#{version}.dmg"
   appcast "https://www.alfredapp.com/app/update#{version.major}/general.xml"
@@ -11,8 +11,7 @@ cask 'alfred' do
 
   app "Alfred #{version.major}.app"
 
-  uninstall quit:       'com.runningwithcrayons.Alfred',
-            login_item: 'Alfred'
+  uninstall quit: 'com.runningwithcrayons.Alfred'
 
   zap trash: [
                '~/Library/Application Support/Alfred',

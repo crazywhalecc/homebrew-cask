@@ -1,6 +1,6 @@
 cask 'mono-mdk' do
-  version '5.20.1.19'
-  sha256 'd08186c74379ed9f8583618080a9bb4fc1f74051a1687755529748006501a5d8'
+  version '6.6.0.161'
+  sha256 '8f0b7f6a34321fc4c46e9e6d7ad83c73ae009289fb689ac9f846eebb51146a6e'
 
   url "https://download.mono-project.com/archive/#{version.major_minor_patch}/macos-10-universal/MonoFramework-MDK-#{version}.macos10.xamarin.universal.pkg"
   appcast 'https://www.mono-project.com/download/stable/'

@@ -1,14 +1,14 @@
 cask 'musescore' do
-  version '3.1.0.22425'
-  sha256 '5c5722a429223f320507008aa119f48551e712f1f26cfdf700772b8f3acb58b1'
+  version '3.3.4'
+  sha256 '3c7f096313f81bf1f076fc97a88b1ad477ea914e4e4a9dbb9ad4c8e273e0b3e5'
 
   # github.com/musescore/MuseScore was verified as official when first introduced to the cask
-  url "https://github.com/musescore/MuseScore/releases/download/v#{version.major_minor}/MuseScore-#{version.major_minor_patch}.dmg"
-  appcast "https://sparkle.musescore.org/stable/#{version.major}/macos/appcast.xml"
+  url "https://github.com/musescore/MuseScore/releases/download/v#{version}/MuseScore-#{version}.dmg"
+  appcast 'https://github.com/musescore/MuseScore/releases.atom'
   name 'MuseScore'
   homepage 'https://musescore.org/'
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: '>= :yosemite'
 
   app "MuseScore #{version.major}.app"
   # shim script (https://github.com/caskroom/homebrew-cask/issues/18809)

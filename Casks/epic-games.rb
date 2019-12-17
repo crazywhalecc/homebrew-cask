@@ -1,6 +1,6 @@
 cask 'epic-games' do
-  version '9.13.0'
-  sha256 '511243407bae33e381d17aeb87642f45d12ef4b3ec806a2f7fcc9ddabbb8a146'
+  version '10.7.0'
+  sha256 '0b82a5103df5026de9ef5ed683c04977053c02a40fce41f404e9119889a845fd'
 
   # epicgames-download1.akamaized.net was verified as official when first introduced to the cask
   url "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Mac/EpicInstaller-#{version}.dmg"

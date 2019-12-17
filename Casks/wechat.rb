@@ -1,6 +1,6 @@
 cask 'wechat' do
-  version '2.3.25.21'
-  sha256 'de2413ca07ff6afb4d37f6b8c0f2a4e6b2209b8175595bd09f008103755ae938'
+  version '2.3.29.17'
+  sha256 '4da19cac0076fda35dc3ae97526adac49367be08c3fbc04b4886cffcd64f0815'
 
   url 'https://dldir1.qq.com/weixin/mac/WeChatMac.dmg'
   appcast 'https://dldir1.qq.com/weixin/mac/mac-release.xml'
@@ -17,7 +17,10 @@ cask 'wechat' do
 
   zap trash: [
                '~/Library/Application Scripts/com.tencent.xinWeChat',
+               '~/Library/Caches/com.tencent.xinWeChat',
                '~/Library/Containers/com.tencent.xinWeChat',
+               '~/Library/Cookies/com.tencent.xinWeChat.binarycookies',
                '~/Library/Group Containers/$(TeamIdentifierPrefix)com.tencent.xinWeChat',
+               '~/Library/Preferences/com.tencent.xinWeChat.plist',
              ]
 end

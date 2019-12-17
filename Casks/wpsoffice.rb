@@ -1,9 +1,9 @@
 cask 'wpsoffice' do
-  version '1.2.1(1575)'
-  sha256 'd1731047bc325df1321fb3a4af0e6c00af600cf43dd6572c47386fd101aafd3b'
+  version '1.8.2,2861'
+  sha256 '9b2543cb8b611b864ee5826e1ecec9add3c8d5baf249c9f4fb3475bf763fae9d'
 
   # package.mac.wpscdn.cn was verified as official when first introduced to the cask
-  url "http://package.mac.wpscdn.cn/mac_wps_pkg/#{version.major_minor_patch}/WPS_Office_#{version}.dmg"
+  url "http://package.mac.wpscdn.cn/mac_wps_pkg/#{version.before_comma}/WPS_Office_#{version.before_comma}(#{version.after_comma}).dmg"
   appcast 'https://www.wps.cn/product/wpsmac/'
   name 'WPS Office'
   homepage 'https://www.wps.cn/product/wpsmac/'

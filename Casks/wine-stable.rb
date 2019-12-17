@@ -1,6 +1,6 @@
 cask 'wine-stable' do
-  version '4.0.1'
-  sha256 'a7cf750d7596c915aacb007150220a7467280eecdfaae8c604e894205c0b2ed5'
+  version '4.0.3'
+  sha256 '6d5ed6db6f10ff8c3460e6cc7aa33cfaf80229013bb792577b5ddb32e8141f23'
 
   url "https://dl.winehq.org/wine-builds/macosx/pool/winehq-stable-#{version}.pkg"
   appcast 'https://dl.winehq.org/wine-builds/macosx/download.html'

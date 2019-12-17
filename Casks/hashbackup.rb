@@ -1,6 +1,6 @@
 cask 'hashbackup' do
-  version '2347'
-  sha256 '571f48bd345ff70d3176b7780a6431c72cfbd245d945b2d77df0d6e34e41048b'
+  version '2461'
+  sha256 '7a8a22999b22ebda97943f968ef9303555dacd2f0142a77a5d41c4ccc67988e8'
 
   url "http://upgrade.hashbackup.com/#{version}/hb.r#{version}.Darwin.x86_64.bz2"
   name 'hashbackup'

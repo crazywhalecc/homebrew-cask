@@ -1,6 +1,6 @@
 cask 'surge-synthesizer' do
-  version '1.6.1.1'
-  sha256 '7d8775055a89a49640352fd995e89c8cce3494f5a3b24efdccba67e2ec5dd746'
+  version '1.6.4.1'
+  sha256 '50e64edaa6124fec85868fdb6627969d4d6ee9641dce45c606471b0b274906d7'
 
   # github.com/surge-synthesizer/releases was verified as official when first introduced to the cask
   url "https://github.com/surge-synthesizer/releases/releases/download/#{version}/Surge-#{version}-Setup.dmg"
@@ -15,5 +15,7 @@ cask 'surge-synthesizer' do
                        'com.vemberaudio.vst3.pkg',
                        'com.vemberaudio.au.pkg',
                        'com.vemberaudio.resources.pkg',
+                       'org.surge-synthesizer.fxau.pkg',
+                       'org.surge-synthesizer.fxvst3.pkg',
                      ]
 end
