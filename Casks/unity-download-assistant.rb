@@ -1,6 +1,6 @@
 cask 'unity-download-assistant' do
-  version '2019.2.16f1,b9898e2d04a4'
-  sha256 'cdeda117ecd496e2ed65b0963c62a865f9f1a32f67011a995debab9579cb9d10'
+  version '2019.3.1f1,89d6087839c2'
+  sha256 '6b8343bed77f8070246abf6015853a08588b3f2a5bf90f5bd045ddda859fe3af'
 
   url "https://netstorage.unity3d.com/unity/#{version.after_comma}/UnityDownloadAssistant-#{version.before_comma}.dmg"
   appcast 'https://unity3d.com/get-unity/download/archive'

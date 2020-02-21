@@ -6,12 +6,12 @@ cask 'bettertouchtool' do
     # bettertouchtool.net/releases was verified as official when first introduced to the cask
     url "https://bettertouchtool.net/releases/btt#{version}_final_10_9.zip"
   else
-    version '3.213'
-    sha256 '9fdd9b568ea21f6d750c79e25868a27a144f6bd833924a004a47ddd6f2f2fed9'
+    version '3.335-1543'
+    sha256 'a2a84986603e9af0218431f69912520cc2ab14f59990a2e4f7f921680ea72127'
 
     # bettertouchtool.net/releases was verified as official when first introduced to the cask
     url "https://bettertouchtool.net/releases/btt#{version}.zip"
-    appcast 'https://bettertouchtool.net/releases/'
+    appcast 'https://www.corecode.io/macupdater/appcasts/bettertouchtool.txt'
   end
 
   name 'BetterTouchTool'

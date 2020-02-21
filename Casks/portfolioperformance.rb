@@ -1,6 +1,6 @@
 cask 'portfolioperformance' do
-  version '0.43.0'
-  sha256 '8a44bc9be5bf89cc2badce315aa050378f40bb6348cbe12b46a53c4d7ba0deb7'
+  version '0.44.1'
+  sha256 'e0feae647232232bf86344bad7bd086bf07a3140096144ec35484fb734d80c08'
 
   # github.com/buchen/portfolio was verified as official when first introduced to the cask
   url "https://github.com/buchen/portfolio/releases/download/#{version}/PortfolioPerformance-#{version}.dmg"
@@ -11,8 +11,4 @@ cask 'portfolioperformance' do
   auto_updates true
 
   app 'PortfolioPerformance.app'
-
-  caveats do
-    depends_on_java '8+'
-  end
 end

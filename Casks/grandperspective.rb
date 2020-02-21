@@ -1,6 +1,6 @@
 cask 'grandperspective' do
-  version '2.3.0'
-  sha256 '3f7b5499ae828816a280eccbf0c50bbd576ff1dc8de6f30796384747e51a7bc3'
+  version '2.4.2'
+  sha256 'fb43b3a25ff14d75d5b0cffa8dd84fcfbb3787c368e4ee1f87870edd4035be25'
 
   # downloads.sourceforge.net/grandperspectiv was verified as official when first introduced to the cask
   url "https://downloads.sourceforge.net/grandperspectiv/grandperspective/#{version}/GrandPerspective-#{version.dots_to_underscores}.dmg"
@@ -10,5 +10,10 @@ cask 'grandperspective' do
 
   app 'GrandPerspective.app'
 
-  zap trash: '~/Library/Preferences/net.sourceforge.grandperspectiv.plist'
+  zap trash: [
+               '~/Library/Application Scripts/net.courceforge.grandperspectiv',
+               '~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/net.sourceforge.grandperspectiv.sfl2',
+               '~/Library/Containers/net.sourceforge.grandperspectiv',
+               '~/Library/Preferences/net.sourceforge.grandperspectiv.plist',
+             ]
 end

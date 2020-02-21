@@ -1,8 +1,8 @@
 cask 'perforce' do
-  version '19.2'
-  sha256 'b39f2c2c16ba268d4a9e5a2b6be4a063d7cc4da573cdc4accf9bdf803ca45d95'
+  version '19.2,1918134'
+  sha256 '2bd6e2fd36c360ee5482ea874f054949c3255492dc53912554fd95476ce98683'
 
-  url "https://cdist2.perforce.com/perforce/r#{version.major_minor}/bin.macosx1010x86_64/helix-core-server.tgz"
+  url "https://cdist2.perforce.com/perforce/r#{version.before_comma}/bin.macosx1010x86_64/helix-core-server.tgz"
   name 'Perforce Helix Versioning Engine'
   homepage 'https://www.perforce.com/'
 

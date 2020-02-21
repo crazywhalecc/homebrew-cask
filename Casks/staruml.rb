@@ -1,6 +1,6 @@
 cask 'staruml' do
-  version '3.2.0'
-  sha256 '1b84fc011eeeb6ad71d4442c8232557c4cb68d9ebcd771b710a0fac3053b4307'
+  version '3.2.2'
+  sha256 '03c3226c643ecc11385a5bb4e3f853921ede862433a351a665fb86416d75f53f'
 
   url "http://staruml.io/download/releases/StarUML-#{version}.dmg"
   appcast 'http://staruml.io/'

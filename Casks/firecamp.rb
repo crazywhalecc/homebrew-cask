@@ -1,12 +1,12 @@
 cask 'firecamp' do
-  version '0.7.5'
-  sha256 '4206996b58d419287cb27eaf6abb0f3ddb94ac1926ff0a87bbb14d8d7fe8e670'
+  version '1.0.1'
+  sha256 '9e55a4e6ba354babc7adf9d935136afc5ceddf46edfcb10b1c90b5ed17c7ac7c'
 
   # firecamp.ams3.digitaloceanspaces.com was verified as official when first introduced to the cask
   url "https://firecamp.ams3.digitaloceanspaces.com/versions/mac/Firecamp-#{version}.dmg"
-  appcast 'https://firecamp.app/docs/installation'
+  appcast 'https://firecamp.io/docs/installation'
   name 'Firecamp'
-  homepage 'https://firecamp.app/'
+  homepage 'https://firecamp.io/'
 
   app 'Firecamp.app'
 end

@@ -1,10 +1,9 @@
 cask 'activedock' do
-  version '1.50'
-  sha256 '6412f060ea920e73c2c27047bf6025cd25bc9d22473246b8ebf739cb507f6bd5'
+  version '1.54'
+  sha256 '95206e53fa4d62d8ad0b9eb3cd42c1ac7a552bc0e2a2e49d345c631ea19a1890'
 
-  # s3.amazonaws.com/downloads.macplussoftware was verified as official when first introduced to the cask
-  url 'https://s3.amazonaws.com/downloads.macplussoftware/ActiveDock.zip'
-  appcast 'https://s3.amazonaws.com/downloads.macplussoftware/ActiveDock.xml'
+  url 'https://noteifyapp.com/download/ActiveDock.dmg'
+  appcast 'https://macplus-software.com/downloads/ActiveDock.xml'
   name 'ActiveDock'
   homepage 'https://www.noteifyapp.com/activedock/'
 
